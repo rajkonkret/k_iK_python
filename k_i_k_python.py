@@ -218,8 +218,8 @@ while q==0:
     if gracz != 'X':
         a = input("wiersz: ")
         b = input("kolumna: ")
-        a=int(a)
-        b=int(b)
+        a,b=int(a),int(b)
+        #b=int(b)
 #   tablica[(a-1)*3+(b-1)]="X"
     else:
         rka=ruchkomp(tablica)
