@@ -177,6 +177,8 @@ def wstawgracza(gracz,a,b):
 #print (a+b)
 #tablica[a,b]=1
 #tablica.append(99)
+gui=Tk()
+gui.mainloop()
 odpo=input('start gry (t/n)')
 
 if odpo != 'n':
