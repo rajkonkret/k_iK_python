@@ -8,7 +8,7 @@ tablicaarg= [0,0,0] *3
 #tablshadow=[" "," "," "] *3
 szablwygr =(-2,-1,1,2)
 index=[0]
-q=0
+q=1
 c1=''
 gracz="X"
 def czypuste():
@@ -179,8 +179,8 @@ def wstawgracza(gracz,a,b):
 #tablica.append(99)
 odpo=input('start gry (t/n)')
 
-if odpo != 't':
-    q=1
+if odpo != 'n':
+    q=0
 while q==0:
     if gracz == "X":
         gracz="O"
